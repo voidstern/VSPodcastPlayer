@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6952D8314823A000096EC2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6952D8214823A000096EC2F /* UIKit.framework */; };
+		F6952D8514823A000096EC2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6952D8414823A000096EC2F /* Foundation.framework */; };
+		F6952D8714823A000096EC2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6952D8614823A000096EC2F /* CoreGraphics.framework */; };
+		F6952D8914823A000096EC2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6952D8814823A000096EC2F /* CoreData.framework */; };
+		F6952D8F14823A000096EC2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6952D8D14823A000096EC2F /* InfoPlist.strings */; };
+		F6952D9114823A000096EC2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6952D9014823A000096EC2F /* main.m */; };
+		F6952D9514823A000096EC2F /* VSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6952D9414823A000096EC2F /* VSCAppDelegate.m */; };
+		F6952D9814823A000096EC2F /* PodcastPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6952D9614823A000096EC2F /* PodcastPlayer.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6952D7E14823A000096EC2F /* PodcastPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6952D8214823A000096EC2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F6952D8414823A000096EC2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F6952D8614823A000096EC2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6952D8814823A000096EC2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F6952D8C14823A000096EC2F /* PodcastPlayer-Info.plist */ = {isa = PBXFileReference; path = "PodcastPlayer-Info.plist"; sourceTree = "<group>"; };
+		F6952D8E14823A000096EC2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F6952D9014823A000096EC2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6952D9214823A000096EC2F /* PodcastPlayer-Prefix.pch */ = {isa = PBXFileReference; path = "PodcastPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		F6952D9314823A000096EC2F /* VSCAppDelegate.h */ = {isa = PBXFileReference; path = VSCAppDelegate.h; sourceTree = "<group>"; };
+		F6952D9414823A000096EC2F /* VSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSCAppDelegate.m; sourceTree = "<group>"; };
+		F6952D9714823A000096EC2F /* PodcastPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PodcastPlayer.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6952D7B14823A000096EC2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6952D8314823A000096EC2F /* UIKit.framework in Frameworks */,
+				F6952D8514823A000096EC2F /* Foundation.framework in Frameworks */,
+				F6952D8714823A000096EC2F /* CoreGraphics.framework in Frameworks */,
+				F6952D8914823A000096EC2F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6952D73148239FF0096EC2F = {
+			isa = PBXGroup;
+			children = (
+				F6952D8A14823A000096EC2F /* PodcastPlayer */,
+				F6952D8114823A000096EC2F /* Frameworks */,
+				F6952D7F14823A000096EC2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6952D7F14823A000096EC2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6952D7E14823A000096EC2F /* PodcastPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6952D8114823A000096EC2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6952D8214823A000096EC2F /* UIKit.framework */,
+				F6952D8414823A000096EC2F /* Foundation.framework */,
+				F6952D8614823A000096EC2F /* CoreGraphics.framework */,
+				F6952D8814823A000096EC2F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6952D8A14823A000096EC2F /* PodcastPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F6952D9314823A000096EC2F /* VSCAppDelegate.h */,
+				F6952D9414823A000096EC2F /* VSCAppDelegate.m */,
+				F6952D9614823A000096EC2F /* PodcastPlayer.xcdatamodeld */,
+				F6952D8B14823A000096EC2F /* Supporting Files */,
+			);
+			path = PodcastPlayer;
+			sourceTree = "<group>";
+		};
+		F6952D8B14823A000096EC2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6952D8C14823A000096EC2F /* PodcastPlayer-Info.plist */,
+				F6952D8D14823A000096EC2F /* InfoPlist.strings */,
+				F6952D9014823A000096EC2F /* main.m */,
+				F6952D9214823A000096EC2F /* PodcastPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6952D7D14823A000096EC2F /* PodcastPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6952D9B14823A000096EC2F /* Build configuration list for PBXNativeTarget "PodcastPlayer" */;
+			buildPhases = (
+				F6952D7A14823A000096EC2F /* Sources */,
+				F6952D7B14823A000096EC2F /* Frameworks */,
+				F6952D7C14823A000096EC2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodcastPlayer;
+			productName = PodcastPlayer;
+			productReference = F6952D7E14823A000096EC2F /* PodcastPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6952D75148239FF0096EC2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F6952D78148239FF0096EC2F /* Build configuration list for PBXProject "PodcastPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F6952D73148239FF0096EC2F;
+			productRefGroup = F6952D7F14823A000096EC2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6952D7D14823A000096EC2F /* PodcastPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6952D7C14823A000096EC2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6952D8F14823A000096EC2F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6952D7A14823A000096EC2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6952D9114823A000096EC2F /* main.m in Sources */,
+				F6952D9514823A000096EC2F /* VSCAppDelegate.m in Sources */,
+				F6952D9814823A000096EC2F /* PodcastPlayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6952D8D14823A000096EC2F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6952D8E14823A000096EC2F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6952D9914823A000096EC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6952D9A14823A000096EC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6952D9C14823A000096EC2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodcastPlayer/PodcastPlayer-Prefix.pch";
+				INFOPLIST_FILE = "PodcastPlayer/PodcastPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F6952D9D14823A000096EC2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PodcastPlayer/PodcastPlayer-Prefix.pch";
+				INFOPLIST_FILE = "PodcastPlayer/PodcastPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6952D78148239FF0096EC2F /* Build configuration list for PBXProject "PodcastPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6952D9914823A000096EC2F /* Debug */,
+				F6952D9A14823A000096EC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6952D9B14823A000096EC2F /* Build configuration list for PBXNativeTarget "PodcastPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6952D9C14823A000096EC2F /* Debug */,
+				F6952D9D14823A000096EC2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6952D9614823A000096EC2F /* PodcastPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6952D9714823A000096EC2F /* PodcastPlayer.xcdatamodel */,
+			);
+			currentVersion = F6952D9714823A000096EC2F /* PodcastPlayer.xcdatamodel */;
+			path = PodcastPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6952D75148239FF0096EC2F /* Project object */;
+}
