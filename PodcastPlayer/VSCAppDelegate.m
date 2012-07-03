@@ -7,10 +7,12 @@
 //
 
 #import "VSCAppDelegate.h"
+#import "VSCGroupsView.h"
 
 @implementation VSCAppDelegate
 
 @synthesize window = _window;
+@synthesize viewController = _viewController;
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
@@ -18,8 +20,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    VSCGroupsView *rootCtrl = [VSCGroupsView new];
+    self.viewController = [[UINavigationController alloc] initWithRootViewController:rootCtrl];
+    //[self.viewController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Navbar"] forBarMetrics:UIBarMetricsDefault];
+    
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
