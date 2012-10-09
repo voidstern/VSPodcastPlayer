@@ -31,8 +31,6 @@
 		F6907680148394030038EE37 /* EpisodesViewBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F690767C148394030038EE37 /* EpisodesViewBackground@2x.png */; };
 		F6907681148394030038EE37 /* TableBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F690767D148394030038EE37 /* TableBackground.png */; };
 		F6907682148394030038EE37 /* TableBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F690767E148394030038EE37 /* TableBackground@2x.png */; };
-		F6907691148394F10038EE37 /* ShadowedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F690768E148394F10038EE37 /* ShadowedTableView.m */; };
-		F6907692148394F10038EE37 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6907690148394F10038EE37 /* GradientView.m */; };
 		F6907694148398B50038EE37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6907693148398B50038EE37 /* QuartzCore.framework */; };
 		F69076A014839B450038EE37 /* VSCStyledTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F690769B14839B450038EE37 /* VSCStyledTableViewCell.m */; };
 		F69076A114839B450038EE37 /* VSCStyledTableCellBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = F690769D14839B450038EE37 /* VSCStyledTableCellBackgroundView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -65,6 +63,8 @@
 		F6AEFF4015A3488900B44616 /* SkipForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AEFF3815A3488900B44616 /* SkipForward@2x.png */; };
 		F6C07C79159887DB00C89717 /* VSCPlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C07C77159887DB00C89717 /* VSCPlayView.m */; };
 		F6C07C7A159887DB00C89717 /* VSCPlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6C07C78159887DB00C89717 /* VSCPlayView.xib */; };
+		F6CE2BD2162419200027AE95 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6CE2BD1162419200027AE95 /* Default-568h@2x.png */; };
+		F6D2713116241F2E0084A5BC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6D2713016241F2E0084A5BC /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,10 +93,6 @@
 		F690767C148394030038EE37 /* EpisodesViewBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "EpisodesViewBackground@2x.png"; path = "Images/EpisodesViewBackground@2x.png"; sourceTree = "<group>"; };
 		F690767D148394030038EE37 /* TableBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TableBackground.png; path = Images/TableBackground.png; sourceTree = "<group>"; };
 		F690767E148394030038EE37 /* TableBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TableBackground@2x.png"; path = "Images/TableBackground@2x.png"; sourceTree = "<group>"; };
-		F690768D148394F10038EE37 /* ShadowedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShadowedTableView.h; path = "../Countdown 2/Countdown 2/ShadowedTableView.h"; sourceTree = "<group>"; };
-		F690768E148394F10038EE37 /* ShadowedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShadowedTableView.m; path = "../Countdown 2/Countdown 2/ShadowedTableView.m"; sourceTree = "<group>"; };
-		F690768F148394F10038EE37 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientView.h; path = "../Countdown 2/Countdown 2/GradientView.h"; sourceTree = "<group>"; };
-		F6907690148394F10038EE37 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientView.m; path = "../Countdown 2/Countdown 2/GradientView.m"; sourceTree = "<group>"; };
 		F6907693148398B50038EE37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F690769A14839B450038EE37 /* VSCStyledTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCStyledTableViewCell.h; sourceTree = "<group>"; };
 		F690769B14839B450038EE37 /* VSCStyledTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCStyledTableViewCell.m; sourceTree = "<group>"; };
@@ -143,6 +139,8 @@
 		F6C07C76159887DB00C89717 /* VSCPlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSCPlayView.h; sourceTree = "<group>"; };
 		F6C07C77159887DB00C89717 /* VSCPlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSCPlayView.m; sourceTree = "<group>"; };
 		F6C07C78159887DB00C89717 /* VSCPlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSCPlayView.xib; sourceTree = "<group>"; };
+		F6CE2BD1162419200027AE95 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F6D2713016241F2E0084A5BC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,17 +206,6 @@
 			name = Icons;
 			sourceTree = "<group>";
 		};
-		F690768C148394E10038EE37 /* Shadow Table View */ = {
-			isa = PBXGroup;
-			children = (
-				F690768D148394F10038EE37 /* ShadowedTableView.h */,
-				F690768E148394F10038EE37 /* ShadowedTableView.m */,
-				F690768F148394F10038EE37 /* GradientView.h */,
-				F6907690148394F10038EE37 /* GradientView.m */,
-			);
-			name = "Shadow Table View";
-			sourceTree = "<group>";
-		};
 		F690769514839ABD0038EE37 /* TableCells */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +222,8 @@
 		F6952D73148239FF0096EC2F = {
 			isa = PBXGroup;
 			children = (
+				F6D2713016241F2E0084A5BC /* LICENSE */,
+				F6CE2BD1162419200027AE95 /* Default-568h@2x.png */,
 				F6952DC9148244200096EC2F /* External */,
 				F6952DA214823B9B0096EC2F /* Views */,
 				F6952D9E14823B270096EC2F /* Model */,
@@ -332,7 +321,6 @@
 		F6952DC9148244200096EC2F /* External */ = {
 			isa = PBXGroup;
 			children = (
-				F690768C148394E10038EE37 /* Shadow Table View */,
 				F6952DCA1482442E0096EC2F /* Media Item Properties */,
 			);
 			name = External;
@@ -413,7 +401,7 @@
 		F6952D75148239FF0096EC2F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = F6952D78148239FF0096EC2F /* Build configuration list for PBXProject "PodcastPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -474,6 +462,8 @@
 				F6AEFF3E15A3488900B44616 /* SkipBackward@2x.png in Resources */,
 				F6AEFF3F15A3488900B44616 /* SkipForward.png in Resources */,
 				F6AEFF4015A3488900B44616 /* SkipForward@2x.png in Resources */,
+				F6CE2BD2162419200027AE95 /* Default-568h@2x.png in Resources */,
+				F6D2713116241F2E0084A5BC /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,8 +483,6 @@
 				F6952DE8148264A60096EC2F /* PodcastList.m in Sources */,
 				F6952DEF14826EBB0096EC2F /* VSCPodcastView.m in Sources */,
 				F61F6C8F14838D25003A0488 /* VSCEpisodesView.m in Sources */,
-				F6907691148394F10038EE37 /* ShadowedTableView.m in Sources */,
-				F6907692148394F10038EE37 /* GradientView.m in Sources */,
 				F69076A014839B450038EE37 /* VSCStyledTableViewCell.m in Sources */,
 				F69076A114839B450038EE37 /* VSCStyledTableCellBackgroundView.m in Sources */,
 				F69076A214839B450038EE37 /* VSCStyledTableHeader.m in Sources */,
@@ -567,6 +555,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PodcastPlayer/PodcastPlayer-Prefix.pch";
 				INFOPLIST_FILE = "PodcastPlayer/PodcastPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -578,6 +567,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PodcastPlayer/PodcastPlayer-Prefix.pch";
 				INFOPLIST_FILE = "PodcastPlayer/PodcastPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

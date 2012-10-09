@@ -35,8 +35,7 @@
 
 - (void) handlePlaybackChanged:(NSNotification *)notification
 {
-    [self dismissModalViewControllerAnimated:YES];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void) updatePosition
@@ -95,13 +94,11 @@
 - (void) viewWillAppear:(BOOL)animated
 {
     [self updatePosition];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque animated:YES];
 }
 
 - (IBAction)close:(id)sender 
 {
     [self dismissModalViewControllerAnimated:YES];
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault animated:YES];
 }
 
 - (IBAction)jumpBack:(id)sender 
